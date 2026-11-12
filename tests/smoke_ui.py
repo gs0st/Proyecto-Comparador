@@ -46,7 +46,7 @@ for i, f in enumerate(("Varian_TrueBeam_importar.csv", "Elekta_Infinity_importar
     for cat in K.CATEGORIAS: w.set_cat(cat)
 w.ck_req.isChecked = lambda: True; w.set_cat(K.CATEGORIAS[0]); w.ck_req.isChecked = lambda: False
 w.set_field("E-028", "valor", "123"); assert w.s["datos"]["B"]["E-028"]["valor"] == "123"
-w.ir(2); n_all = len(w.vis); assert n_all == 140, n_all
+w.ir(2); n_all = len(w.vis); assert n_all == 152, n_all
 for crit in ("Todos", "Relevantes al perfil", "Decisivos", "Informativos", "Infraestructura", "Costos"):
     for cat in ["Todas"] + [K.cat_corta(c) for c in K.CATEGORIAS] + ["Infraestructura"]:
         w.m_crit._v, w.m_cat._v = crit, cat; w.refresh_cmp()

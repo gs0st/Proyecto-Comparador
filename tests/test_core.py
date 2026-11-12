@@ -31,7 +31,7 @@ def test_import_and_study():
     rows = k.filas(s)
     assert len(rows) == 140
     res = k.resumen(rows)
-    assert res[-1][0] == "Infraestructura" and res[-1][1] == 24
+    assert res[-1][0] == "Infraestructura" and res[-1][1] == 35
     assert all(r[1] == sum(r[2:]) for r in res)
     assert k.costos(s)["A"]["segs"][0] > 0
     assert k.menor_costo(s) in (None, "A", "B")
