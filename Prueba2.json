@@ -1,0 +1,1084 @@
+{
+ "titulo": "Linac para servicio de radioterapia",
+ "nombres": {
+  "A": "Varian TrueBeam",
+  "B": "Elekta Infinity"
+ },
+ "vida_util": 10,
+ "perfil": {
+  "nivel": "Avanzada",
+  "tecnicas": [
+   "VMAT",
+   "SRS/SBRT"
+  ],
+  "pacientes": "25–50"
+ },
+ "datos": {
+  "A": {
+   "E-027": {
+    "valor": "MLC Millennium 120 / HD120",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-028": {
+    "valor": "120",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E35",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-029": {
+    "valor": "5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E37",
+    "estado": "Declarado",
+    "nota": "Millennium-120: 5 mm centrales y 10 mm periféricas; HD120 (opcional): 2.5 y 5 mm. Se registra el ancho central del Millennium"
+   },
+   "E-030": {
+    "valor": "2.5",
+    "fuente": "J Cancer 2019;10:6135 (Millennium 120, velocidad máx. 2.5 cm/s)",
+    "estado": "Declarado",
+    "nota": "Fuente secundaria; el folleto de Varian no publica la velocidad de láminas"
+   },
+   "E-031": {
+    "valor": "0.25",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E41",
+    "estado": "Declarado",
+    "nota": "Exactitud relativa de láminas"
+   },
+   "E-033": {
+    "valor": "2.5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E39",
+    "estado": "Declarado",
+    "nota": "ECRI no indica si es promedio o máximo. Diapositivas de comisionamiento de TrueBeam (secundarias) reportan transmisión promedio de 1.15 a 1.48 % con filtro; conviene validar con el fabricante"
+   },
+   "E-034": {
+    "valor": "40 × 40 / n.e. cm × cm",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-036": {
+    "valor": "4|6|8|10|15|18|20 MV",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-037": {
+    "valor": "6|9|12|15|16|18|20|22 MeV",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-040": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-041": {
+    "valor": "2400",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E65",
+    "estado": "Declarado",
+    "nota": "cGy/min tomado como UM/min; máximo en modo alta intensidad 10 MV (600 en modo estándar)"
+   },
+   "E-048": {
+    "valor": "0.3",
+    "fuente": "ECRI E24 + Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842",
+    "estado": "Verificado",
+    "nota": "Precisión rotacional del gantry ≤0.3°"
+   },
+   "E-051": {
+    "valor": "0.75",
+    "fuente": "Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842",
+    "estado": "Declarado",
+    "nota": "Radio de isocentro ≤0.75 mm con gantry, colimador y camilla (0.5 mm solo gantry y colimador)"
+   },
+   "E-053": {
+    "valor": "6",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E76",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-057": {
+    "valor": "227",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E77",
+    "estado": "Declarado",
+    "nota": "Con tablero IGRT; 200 kg con camilla PerfectPitch (6 grados de libertad)"
+   },
+   "E-059": {
+    "valor": "INM-02|INM-03|INM-05 sistemas compatibles",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-061": {
+    "valor": "IMG-01|IMG-02|IMG-03|IMG-05 modalidades",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-064": {
+    "valor": "RES-01|RES-02|RES-04|RES-06 modalidades",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-067": {
+    "valor": "TEC-01|TEC-03|TEC-04|TEC-05|TEC-06|TEC-07|TEC-08|TEC-09|TEC-10|TEC-11 técnicas",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-071": {
+    "valor": "VER-01|VER-02|VER-03 verificaciones",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-072": {
+    "valor": "DOS-04 funciones",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-073": {
+    "valor": "PAR-02|PAR-03 condiciones de parada",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-074": {
+    "valor": "LaserGuard II (detección láser de colisión del gantry) + protectores táctiles + detección capacitiva de proximidad",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-078": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-048": {
+    "valor": "6428000",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E90",
+    "estado": "Declarado",
+    "nota": "Precio de lista; derivado de la base PricePaid de Staritas"
+   },
+   "C-022": {
+    "valor": "5.8 × 4.9 m × m",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-023": {
+    "valor": "3.1",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E84",
+    "estado": "Declarado",
+    "nota": "Tamaño mínimo recomendado de sala"
+   },
+   "C-038": {
+    "valor": "45",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E87",
+    "estado": "Declarado",
+    "nota": "kVA con haz encendido"
+   },
+   "E-086": {
+    "valor": "372 × 124 × 264 cm × cm × cm",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-087": {
+    "valor": "9660",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E28",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-056": {
+    "valor": "SRV-01|SRV-02|SRV-04 servicios",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-062": {
+    "valor": "Actualizaciones de software y de seguridad que protegen datos del hospital y del paciente",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-032": {
+    "valor": "20",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E40",
+    "estado": "Declarado",
+    "nota": "200 mm convertidos a cm. Fuentes secundarias reportan 14.5-15 cm para el MLC Millennium; conviene validar con el fabricante"
+   },
+   "E-045": {
+    "valor": "FFF|HIM|HDTSE modos",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-047": {
+    "valor": "370",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E23",
+    "estado": "Declarado",
+    "nota": "±185° expresado como rango total"
+   },
+   "E-049": {
+    "valor": "43.3",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E38",
+    "estado": "Declarado",
+    "nota": "Distancia colimador-isocentro; SAD = 100 cm"
+   },
+   "E-050": {
+    "valor": "350",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E30",
+    "estado": "Declarado",
+    "nota": "±175° expresado como rango total"
+   },
+   "E-056": {
+    "valor": "236 × 53 cm × cm",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-060": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-062": {
+    "valor": "Proyección de estructuras de planificación sobre las imágenes adquiridas durante el tratamiento",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-065": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-068": {
+    "valor": "Compatible con sistemas de registro y verificación; ARIA como sistema de información oncológico opcional",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-069": {
+    "valor": "DCM-01|DCM-02 formatos",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-077": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-079": {
+    "valor": "Sistema CIVCO Body Pro-Lok para posicionamiento cómodo en SBRT; solución prona para mama",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-089": {
+    "valor": "ACC-01|ACC-04 accesorios",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-002": {
+    "valor": "SmartConnect Plus: monitoreo remoto del equipo y asistencia en tiempo real con escritorio compartido",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-001": {
+    "valor": "Cumplimiento normativas (HIPAA|GDPR)|encriptación",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-018": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-020": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-031": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-039": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-041": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-004": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-025": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-038": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-046": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-088": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-004": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-005": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-042": {
+    "valor": "0.667",
+    "fuente": "Comisionamiento de TrueBeam, datos compuestos de 3 equipos (scispace.com/topics/truebeam-18zbrefj)",
+    "estado": "Declarado",
+    "nota": "TPR20,10 de 6 MV con filtro. Otros: 6 MV FFF 0.631, 10 MV 0.738, 10 MV FFF 0.692"
+   },
+   "E-102": {
+    "valor": "Sí",
+    "fuente": "oncologysystems.com (fichas de TrueBeam usado) (10 MV FFF, modo de alta intensidad, 2400 UM/min) + Folleto Varian Edge (2012-2019)",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "E-103": {
+    "valor": "1000",
+    "fuente": "oncologysystems.com (fichas de TrueBeam usado) + physik.gesundheitsverbund.at (QA de TrueBeam)",
+    "estado": "Verificado",
+    "nota": "1000 UM/min en electrones; se toma UM como cGy, igual que en E-041"
+   },
+   "E-104": {
+    "valor": "EPID aS1000 (imagen portal MV, brazo E-Arm)",
+    "fuente": "oncologysystems.com (fichas de TrueBeam usado)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-105": {
+    "valor": "OBI (On-Board Imager kV, generador GS-1542)",
+    "fuente": "oncologysystems.com (fichas de TrueBeam usado) + registros CSN de instalaciones TrueBeam (csn.es)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-108": {
+    "valor": "Sí",
+    "fuente": "oncologysystems.com (fichas de TrueBeam usado) + Folleto Varian Edge (2012-2019) (3D CBCT)",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "E-097": {
+    "valor": "Sí",
+    "fuente": "Folleto Varian Edge (2012-2019) (RapidArc: sincroniza MLC, gantry y UM)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-114": {
+    "valor": "Sí",
+    "fuente": "Folleto Varian Edge (2012-2019) (RapidArc, arcos completos y parciales)",
+    "estado": "Declarado",
+    "nota": "RapidArc"
+   },
+   "E-110": {
+    "valor": "Sí",
+    "fuente": "Folleto Varian Edge (2012-2019) (ARIA) + Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020) (sistema Record and Verify)",
+    "estado": "Declarado",
+    "nota": "Integración nativa con ARIA"
+   },
+   "E-055": {
+    "valor": "0.7",
+    "fuente": "physik.gesundheitsverbund.at (QA de TrueBeam), página HyperArc (umbral del Enhanced Couch Check de MPC)",
+    "estado": "Declarado",
+    "nota": "Umbral de tolerancia del chequeo de camilla de MPC, no una especificación publicada por Varian. Medición independiente en Developer Mode: 0.26 / 0.53 / 0.02 mm (vertical / lateral / longitudinal), AAPM 2019"
+   },
+   "E-116": {
+    "valor": "100",
+    "fuente": "Nota de ECRI en E-049 (SAD = 100 cm)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-032": {
+    "valor": "3",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "±3 mm en radio de 183 cm desde el isocentro; la profundidad del foso no debe variar más de 6 mm"
+   },
+   "C-042": {
+    "valor": "15",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Caudal ideal 15 L/min a 18 °C; rango admisible 10–23 L/min"
+   },
+   "S-045": {
+    "valor": "15",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Caudal ideal; rango 10–23 L/min"
+   },
+   "S-046": {
+    "valor": "6.9",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Presión máxima de entrada (100 PSI). Diferencial requerido en el stand: 0.7–1.7 bar"
+   },
+   "S-047": {
+    "valor": "Agua limpia, incolora y desinfectada; HPC <10 000 UFC/ml; pH 7.0–10.0; dureza total >75 ppm CaCO3; inhibidor de corrosión en lazo cerrado",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Glicol máx. 50 % (preferible propilenglicol)"
+   },
+   "C-044": {
+    "valor": "13.6",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Suma de cargas térmicas al aire con haz encendido: stand 7.25 + modulador 5.25 + gabinete de consola 1.1 kW. No incluye el calor que se lleva el circuito de agua (25 kW máx.)"
+   },
+   "S-034": {
+    "valor": "100",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "100 A a 400 V / 50 Hz u 80 A a 480 V / 60 Hz; consola aparte: 20 A a 208–230 V"
+   },
+   "C-065": {
+    "valor": "Trifásico 200/208/240/380/400/415/480 VAC (5 hilos), 50 o 60 Hz ±1 Hz; 7 kVA en espera y 48 kVA con haz encendido",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Regulación ±5 %, desbalance de fases ≤3 %, THD <5 %, FP ≥0.9"
+   },
+   "S-038": {
+    "valor": "200/208/240/380/400/415/480 VAC trifásico + N + PE; 50 o 60 Hz",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "S-037": {
+    "valor": "Tomacorriente IEC 60309 azul 30–32 A (área de control)",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Solo para el gabinete de consola; la potencia del equipo entra por el interruptor principal (MCB)"
+   },
+   "S-039": {
+    "valor": "UPS integrada en el gabinete de consola; acondicionador de potencia o transformador de aislamiento si la red no cumple la regulación",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "S-040": {
+    "valor": "16 / 27 °C",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Rango de temperatura ambiente. Formato mín / máx supuesto"
+   },
+   "S-041": {
+    "valor": "30 / 75 %",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "HR sin condensación. Formato mín / máx supuesto"
+   },
+   "S-043": {
+    "valor": "Equipo y monitores fuera del campo magnético de 100 µT (1 gauss); cuidar la cercanía a resonancia magnética",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "S-044": {
+    "valor": "Acabado antiestático (<2.0 kV a 20 % HR), sin alfombra; foso del BaseFrame con concreto C30 (slump 80); nivelación ±3 mm en radio de 183 cm",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Pozo y losa diseñados por ingeniero estructural; zona sísmica requiere anclajes adicionales"
+   },
+   "C-046": {
+    "valor": "6123",
+    "fuente": "Varian TrueBeam/VitalBeam Product Planning Guide PPG-HT-D (P1026768-04, nov. 2020)",
+    "estado": "Declarado",
+    "nota": "Stand y gantry conectados (configuración estándar de izaje). En configuración \"factory break\": gantry 4658 kg y stand 1465 kg"
+   },
+   "O-006": {
+    "valor": "Varian Medical Systems, Inc. (Palo Alto, California; empresa de Siemens Healthineers)",
+    "fuente": "FDA 510(k) K111106 / K123291 + cancercare.siemens-healthineers.com",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "O-008": {
+    "valor": "Sí",
+    "fuente": "FDA 510(k): K111106 (2011), K123291 (2012), K140528 (2014), K171733 (2017), K213977 (2022), K223839 (2023)",
+    "estado": "Verificado",
+    "nota": "Clase II, código IYE"
+   },
+   "O-010": {
+    "valor": "Acelerador lineal médico (fotones, electrones y rayos X kV); FDA clase II, código IYE, 21 CFR 892.5050",
+    "fuente": "FDA 510(k) K111106 y K123291",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "O-012": {
+    "valor": "EE. UU. (Palo Alto, California)",
+    "fuente": "FDA 510(k) K111106 (dirección del solicitante)",
+    "estado": "Declarado",
+    "nota": "Es la sede del fabricante; no se confirmó la planta de fabricación"
+   }
+  },
+  "B": {
+   "E-027": {
+    "valor": "MLC Agility",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-028": {
+    "valor": "160",
+    "fuente": "ECRI D35 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com",
+    "estado": "Verificado",
+    "nota": "160 láminas de 5 mm en todo el campo de 40 × 40 cm"
+   },
+   "E-029": {
+    "valor": "5",
+    "fuente": "ECRI D37 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "E-030": {
+    "valor": "6.5",
+    "fuente": "ECRI D45 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com",
+    "estado": "Verificado",
+    "nota": "Hasta 6.5 cm/s (carro 3 cm/s + lámina 3.5 cm/s según literatura)"
+   },
+   "E-033": {
+    "valor": "0.5",
+    "fuente": "ECRI D39 + OSTI SU-E-T-119 (comisionamiento de dos Infinity: transmisión con fuga entre láminas 0.5 %)",
+    "estado": "Verificado",
+    "nota": "ECRI: <0.375 promedio, <0.5 máximo; se registra el máximo"
+   },
+   "E-034": {
+    "valor": "40 × 40 / 0.5 × 0.5 cm × cm",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-036": {
+    "valor": "4|6|8|10|15|18|25 MV",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": "La guía de sitio de Elekta indica que 25 MV solo está disponible mediante solicitud no estándar (NSR)"
+   },
+   "E-037": {
+    "valor": "4|6|8|9|10|12|15|18|20|22 MeV",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-040": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-041": {
+    "valor": "1400",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D65",
+    "estado": "Declarado",
+    "nota": "cGy/min tomado como UM/min; 1400 en modo alta intensidad 6 MV | Revisar: la guía de sitio de Elekta (1008405 05, tabla 2.3) lista 6 HDR = 1400 y 10 HDR = 2200 UM/min nominales, y recomienda planificar con 2500"
+   },
+   "E-051": {
+    "valor": "1",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D24",
+    "estado": "Declarado",
+    "nota": "ECRI: ≤1 mm, coincidencia de isocentro de radiación e imagen"
+   },
+   "E-053": {
+    "valor": "3",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D76",
+    "estado": "Declarado",
+    "nota": "3-D de base; 6-D es opcional"
+   },
+   "E-057": {
+    "valor": "250",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D77",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-061": {
+    "valor": "IMG-01|IMG-02|IMG-03 modalidades",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-064": {
+    "valor": "RES-01 modalidades",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-067": {
+    "valor": "TEC-01|TEC-03|TEC-04|TEC-07|TEC-08|TEC-09 técnicas",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-071": {
+    "valor": "VER-02|VER-03 verificaciones",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-072": {
+    "valor": "DOS-04 funciones",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-073": {
+    "valor": "PAR-02 condiciones de parada",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-078": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-048": {
+    "valor": "6400000",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D90",
+    "estado": "Declarado",
+    "nota": "Precio de lista"
+   },
+   "C-022": {
+    "valor": "6.5 × 6 m × m",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-023": {
+    "valor": "3.2",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D84",
+    "estado": "Declarado",
+    "nota": "Tamaño mínimo recomendado de sala"
+   },
+   "C-038": {
+    "valor": "30",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D87",
+    "estado": "Declarado",
+    "nota": "ECRI: ≤30 kVA"
+   },
+   "E-086": {
+    "valor": "356 × 387 × 248 cm × cm × cm",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-087": {
+    "valor": "6600",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D28",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-047": {
+    "valor": "16",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D94",
+    "estado": "Declarado",
+    "nota": "ECRI: ~16 semanas"
+   },
+   "C-056": {
+    "valor": "SRV-01|SRV-03|SRV-04 servicios",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-060": {
+    "valor": "12",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D91",
+    "estado": "Declarado",
+    "nota": "ECRI: 1 año"
+   },
+   "E-032": {
+    "valor": "12.5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D40",
+    "estado": "Declarado",
+    "nota": "125 mm convertidos a cm"
+   },
+   "E-045": {
+    "valor": "FFF|HIM modos",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-047": {
+    "valor": "365",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D23",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-049": {
+    "valor": "45",
+    "fuente": "ECRI D38 + J Appl Clin Med Phys 2016 (Versa HD/Agility: espacio libre al isocentro 45 cm)",
+    "estado": "Verificado",
+    "nota": "Distancia colimador-isocentro; SAD = 100 cm"
+   },
+   "E-050": {
+    "valor": "365",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D30",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-052": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-056": {
+    "valor": "230 × 50 cm × cm",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-060": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-062": {
+    "valor": "Registro avanzado de imagen que considera la posición del blanco y estructuras críticas",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-068": {
+    "valor": "Soporta interfaces estándar de la industria",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-075": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-076": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-077": {
+    "valor": "Sí",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-079": {
+    "valor": "Accionamiento silencioso en todos los movimientos, velocidad variable, tablero de camilla giratorio",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-089": {
+    "valor": "ACC-01|ACC-04|ACC-05 accesorios",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-002": {
+    "valor": "IntelliMax: monitoreo remoto del sistema en tiempo real y resolución remota de fallas",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-059": {
+    "valor": "Sistemas compatibles (Qfix|Civco|Orfit)",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-074": {
+    "valor": "TouchGuard / Sensores de proximidad",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-001": {
+    "valor": "Cumplimiento normativas (HIPAA|GDPR)",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-018": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-020": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-031": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-039": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-041": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-004": {
+    "valor": "Dato comercial - A verificar en oferta",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-062": {
+    "valor": "Sí (a través de acuerdos Elekta Care)",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-025": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-038": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-046": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-069": {
+    "valor": "Soporte DICOM-RT (RayStation|Monaco|Pinnacle)",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-088": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-004": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "O-005": {
+    "valor": "Consultar manual técnico",
+    "fuente": "Informe comparativo / Búsqueda técnica",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-042": {
+    "valor": "0.68",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), tabla 2.2",
+    "estado": "Declarado",
+    "nota": "TPR20,10 de 6 MV con filtro. Otros: 10 MV 0.73, 15 MV 0.76, 18 MV 0.78"
+   },
+   "E-035": {
+    "valor": "0.1",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), tabla 2.1",
+    "estado": "Declarado",
+    "nota": "Valor máximo de fuga fuera del haz primario, a 1 m del blanco, como % del haz en el isocentro. Es un límite declarado, no una medición"
+   },
+   "E-102": {
+    "valor": "Sí",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), tabla 2.3 + Folleto Elekta Infinity LPCINF190102 (modo de alta tasa de dosis FFF)",
+    "estado": "Verificado",
+    "nota": "6 HDR 1400 y 10 HDR 2200 UM/min nominales"
+   },
+   "E-104": {
+    "valor": "iViewGT (imagen portal MV)",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014) + oncologysystems.com (fichas de Infinity usado)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-105": {
+    "valor": "XVI (X-ray Volume Imaging kV, generador Sedecal SHF-435-DSI)",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-108": {
+    "valor": "Sí",
+    "fuente": "Elekta Medical Affairs (estudio Farrer Park, XVI VolumeView CBCT) + oncologysystems.com (fichas de Infinity)",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "E-097": {
+    "valor": "Sí",
+    "fuente": "oncologysystems.com (Infinity con VMAT) + Folleto Elekta Infinity",
+    "estado": "Declarado",
+    "nota": "Controla simultáneamente gantry, velocidad de gantry, láminas, tasa de dosis y ángulo del colimador"
+   },
+   "E-114": {
+    "valor": "Sí",
+    "fuente": "oncologysystems.com (Infinity con VMAT) + Folleto Elekta Infinity",
+    "estado": "Declarado",
+    "nota": "VMAT"
+   },
+   "E-096": {
+    "valor": "Sí",
+    "fuente": "Folleto Elekta Infinity LPCINF190102 (tecnología óptica Rubicon)",
+    "estado": "Declarado",
+    "nota": "Monitoreo y posicionamiento de láminas en tiempo real"
+   },
+   "E-110": {
+    "valor": "Sí",
+    "fuente": "Folleto Elekta Infinity (MOSAIQ Plaza) + Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014) (estación MOSAIQ)",
+    "estado": "Verificado",
+    "nota": "Integración nativa con MOSAIQ"
+   },
+   "E-092": {
+    "valor": "Magnetrón",
+    "fuente": "oncologysystems.com (ficha de Infinity usado: magnetrón reemplazado en 2019)",
+    "estado": "Declarado",
+    "nota": "Dato inferido de una ficha de reventa; conviene confirmarlo con Elekta"
+   },
+   "E-112": {
+    "valor": "100",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), sección 7.3.1",
+    "estado": "Declarado",
+    "nota": "Rotación isocéntrica de la mesa ±100° ±5° (Precise Treatment Table); columna ±180°"
+   },
+   "E-099": {
+    "valor": "25 × 25 cm",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), figura 7.10",
+    "estado": "Declarado",
+    "nota": "Aplicador de electrones más grande listado"
+   },
+   "E-116": {
+    "valor": "100",
+    "fuente": "Nota de ECRI en E-049 (SAD = 100 cm)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-032": {
+    "valor": "2",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), sección 3.3.1.3",
+    "estado": "Declarado",
+    "nota": "±2 mm en radio de 1500 mm desde el isocentro; foso ±2 mm; zona del gantry ±5 mm"
+   },
+   "C-065": {
+    "valor": "Trifásico 380 V (instalaciones Elekta en Latinoamérica); estabilizador de voltaje opcional",
+    "fuente": "Plantilla de inspección de sitio Elekta LATAM (public-library.safetyculture.io)",
+    "estado": "Declarado",
+    "nota": "Confirmar la tensión de diseño en la oferta"
+   },
+   "S-038": {
+    "valor": "380 V trifásico (Latinoamérica)",
+    "fuente": "Plantilla de inspección de sitio Elekta LATAM (public-library.safetyculture.io)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "S-039": {
+    "valor": "UPS incluida en el gabinete de control de tratamiento (Integrity R3.x); estabilizador de voltaje opcional",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "S-044": {
+    "valor": "Concreto ≥30 MN/m² y 2.35 t/m³; espesor mín. 200 mm (zona del gantry) y 220 mm (foso de camilla); planitud ±5 mm / ±2 mm; curado mín. 28 días",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014)",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "S-050": {
+    "valor": "Sí",
+    "fuente": "Folleto Elekta Infinity (IntelliMax) + Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014), sección 8.7.3",
+    "estado": "Verificado",
+    "nota": "IntelliMax Connect y Agent: soporte remoto y mantenimiento predictivo; más del 30 % de las incidencias se resuelven en remoto (dato del fabricante)"
+   },
+   "O-006": {
+    "valor": "Elekta Limited (Crawley, Reino Unido), filial de Elekta AB (Estocolmo, Suecia)",
+    "fuente": "FDA 510(k) K182138 / K210500 + registro FDA 9617016",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "O-008": {
+    "valor": "Sí",
+    "fuente": "FDA 510(k): K182138 (2018), K192242 (2019), K210500 (2021)",
+    "estado": "Verificado",
+    "nota": "Clase II, código IYE; el 510(k) K210500 describe Infinity como la configuración de nivel medio"
+   },
+   "O-010": {
+    "valor": "Acelerador lineal médico (fotones, electrones y rayos X kV); FDA clase II, código IYE, 21 CFR 892.5050",
+    "fuente": "FDA 510(k) K182138 y K210500",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "O-012": {
+    "valor": "Reino Unido (Linac House, Crawley, West Sussex)",
+    "fuente": "Elekta Medical Linear Accelerator, Site Planning Construction Information (doc. 1008405 05, dic. 2014) (centro de manufactura de oncología)",
+    "estado": "Declarado",
+    "nota": ""
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "_nota": "Opciones para criterios de selección múltiple. Si un criterio no está aquí se escribe separado por |.",
+ "E-036": ["4","6","8","10","15","18","20","25"],
+ "E-037": ["4","6","9","12","15","18","20"]
+}

@@ -1,0 +1,104 @@
+﻿codigo;respuesta;fuente;estado;criterio;unidad;observacion
+C-057;;;No encontrado;Servicio técnico propio o autorizado en Colombia, con ingenieros certificados por el fabricante para el modelo;—;ECRI no cubre servicio técnico, repuestos ni capacitación en Colombia
+C-058;;;No encontrado;Capacidad de respuesta comprometida y disponibilidad de repuestos críticos en el país;% disponibilidad (umbral ≥ 95);ECRI no cubre servicio técnico, repuestos ni capacitación en Colombia
+C-059;;;No encontrado;Plan de capacitación para físicos médicos, técnicos y radioterapeutas;—;ECRI no cubre servicio técnico, repuestos ni capacitación en Colombia
+E-027;MLC Agility;ECRI (Linear Accele, hoja 1), celda D34;Declarado;Tipo de colimador y de mordazas;tipo (orden definido en catálogo);ECRI no describe las mordazas
+E-028;160;ECRI D35 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com;Verificado;Número de láminas del colimador multilámina;láminas;160 láminas de 5 mm en todo el campo de 40 × 40 cm
+E-029;5;ECRI D37 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com;Verificado;Dimensiones de las láminas;mm (ancho a isocentro);
+E-030;6.5;ECRI D45 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com;Verificado;Velocidad de las láminas;cm/s;Hasta 6.5 cm/s (carro 3 cm/s + lámina 3.5 cm/s según literatura)
+E-031;;;No encontrado;Precisión del colimado;mm;ECRI no reporta precisión de colimado de Infinity
+E-033;0.5;ECRI D39 + OSTI SU-E-T-119 (comisionamiento de dos Infinity: transmisión con fuga entre láminas 0.5 %);Verificado;Transmisión y fuga entre láminas;%;"ECRI: <0.375 promedio, <0.5 máximo; se registra el máximo"
+E-034;40 × 40 / 0.5 × 0.5;ECRI (Linear Accele, hoja 1), celda D32;Declarado;Tamaño máximo y mínimo de campo;cm × cm (máx. ↑ / mín. ↓);
+E-036;4|6|8|10|15|18|25;ECRI (Linear Accele, hoja 1), celda D14;Declarado;Energías de fotones;MV;Configurable: se eligen de 1 a 3 energías
+E-037;4|6|8|9|10|12|15|18|20|22;ECRI (Linear Accele, hoja 1), celda D15;Declarado;Energías de electrones;MeV;Configurable: se eligen de 3 a 9 energías
+E-040;Sí;ECRI (Linear Accele, hoja 1), celda D47;Declarado;Presencia de filtro aplanador libre (FFF);—;
+E-041;1400;ECRI (Linear Accele, hoja 1), celda D65;Declarado;Tasa de dosis;UM/min;"cGy/min tomado como UM/min; 1400 en modo alta intensidad 6 MV"
+E-048;;;No encontrado;Precisión del gantry;°;"ECRI da para Infinity una precisión en mm (≤1, coincidencia de isocentros), no en grados; ver E-051"
+E-051;1;ECRI (Linear Accele, hoja 1), celda D24;Declarado;Precisión del isocentro;mm (radio);ECRI: ≤1 mm, coincidencia de isocentro de radiación e imagen
+E-053;3;ECRI (Linear Accele, hoja 1), celda D76;Declarado;Ejes de movimiento;grados de libertad;"3-D de base; 6-D es opcional"
+E-055;;;No encontrado;Precisión de la camilla;mm;ECRI no reporta este dato
+E-057;250;ECRI (Linear Accele, hoja 1), celda D77;Declarado;Capacidad de peso del paciente;kg;
+E-059;;;No encontrado;Compatibilidad con máscaras e inmovilizadores;sistemas compatibles;ECRI nombra para Infinity solo 'dispositivos de inmovilización' y accesorios de posicionamiento, sin tipo
+E-061;IMG-01|IMG-02|IMG-03;ECRI (Linear Accele, hoja 1), celda D49 + D50 + D53;Declarado;Imágenes captadas por el equipo;modalidades;iViewGT (MV), XVI (kV y CBCT)
+E-064;RES-01;ECRI (Linear Accele, hoja 1), celda D55 + D88;Declarado;Sistema de manejo del movimiento respiratorio;modalidades;Gating opcional
+E-067;TEC-01|TEC-03|TEC-04|TEC-07|TEC-08|TEC-09;ECRI (Linear Accele, hoja 1), celda D10 + D13 + D42 + D43 + D45 + D97;Declarado;Técnicas de tratamiento soportadas;técnicas;"IMRT dinámico por láminas móviles; VMAT. SRS no incluido: ECRI lo da 'con accesorios', pero el 510(k) K210500 asigna SRS solo a la configuración Versa HD (Infinity: SBRT/SABR)"
+E-071;VER-02|VER-03;ECRI (Linear Accele, hoja 1), celda D62 + D41;Declarado;Sistemas de verificación internos;verificaciones;VER-03: monitoreo óptico de láminas en tiempo real (Rubicon, folleto Elekta 2019)
+E-072;DOS-04;ECRI (Linear Accele, hoja 1), celda D61;Declarado;Equipo de control de dosificación;funciones;Muestra dosis acumulada y tasa de dosis (interpretación)
+E-073;PAR-02;ECRI (Linear Accele, hoja 1), celda D62;Declarado;Sistemas de parada ante condiciones no óptimas;condiciones de parada;Interlock ante falla, listado dentro del sistema dosimétrico
+E-074;;;No encontrado;Anticolisión gantry-camilla-paciente;tipo (orden definido en catálogo);"ECRI no reporta sistemas anticolisión de Infinity; no se halló una hoja técnica pública"
+E-078;Sí;FDA 510(k) K121328 Elekta Agility, accessdata.fda.gov;Declarado;Conformidad con la norma de seguridad de aceleradores médicos;—;"El 510(k) de Agility cita IEC 60601-2-1 entre las normas aplicadas; K252188 (2025) menciona cumplimiento de la 4.ª edición"
+O-001;;;No encontrado;Protección de los datos recolectados del paciente;controles;ECRI no reporta controles de protección de datos
+C-048;6400000;ECRI (Linear Accele, hoja 1), celda D90;Declarado;Costo de compra del equipo (por configuración ofertada);USD;Precio de lista
+C-049;;;No encontrado;Costo de envío y seguro;USD;ECRI no reporta este dato
+C-050;;;No encontrado;Costos de servicios previos y durante la instalación;USD;ECRI no reporta este dato
+C-051;;;No encontrado;Costo de capacitación inicial;USD;ECRI no reporta este dato
+C-052;;;No encontrado;Obra civil, blindaje y adecuaciones asociadas;USD;ECRI no reporta este dato
+C-053;;;No encontrado;Impuestos, aranceles y moneda de pago;USD;ECRI no reporta este dato
+C-055;;;No encontrado;Costo esperado de los mantenimientos preventivos y del contrato de servicio;USD/año;ECRI no reporta costo de mantenimiento
+C-017;;;No encontrado;Polietileno borado;cm;ECRI no reporta este dato
+C-018;;;No encontrado;Barreras primarias y secundarias;cm de hormigón equivalente (primaria / secundaria);ECRI no reporta este dato
+C-019;;;No encontrado;Laberinto y puerta de la sala;kg (puerta);ECRI no reporta este dato
+C-020;;;No encontrado;Pasos tecnológicos en el blindaje;—;ECRI no reporta este dato
+C-021;;;No encontrado;Blindaje de techo y piso;cm;ECRI no reporta este dato
+C-022;6.5 × 6;ECRI (Linear Accele, hoja 1), celda D84;Declarado;Sala de tratamiento (dimensiones interiores);m × m;Tamaño mínimo recomendado de sala
+C-023;3.2;ECRI (Linear Accele, hoja 1), celda D84;Declarado;Altura libre de la sala de tratamiento;m;Tamaño mínimo recomendado de sala
+C-024;;;No encontrado;Longitud y ancho del laberinto;m (longitud);ECRI no reporta este dato
+C-026;;;No encontrado;Sala de equipos o de máquinas;m²;ECRI no reporta este dato
+C-030;;;No encontrado;Reforzamiento estructural y carga sobre el piso;kN/m²;ECRI no reporta este dato
+C-031;;;No encontrado;Anclajes, embebidos y canaletas del equipo;—;ECRI no reporta este dato
+C-032;;;No encontrado;Tolerancias de nivelación del piso;mm (tolerancia permitida);ECRI no reporta este dato
+C-038;30;ECRI (Linear Accele, hoja 1), celda D87;Declarado;Alimentación eléctrica del equipo;kVA;ECRI: ≤30 kVA
+C-039;;;No encontrado;Protecciones de la red eléctrica para funcionamiento seguro;—;ECRI no reporta este dato
+C-040;;;No encontrado;Subestación o transformador dedicado;—;ECRI no reporta este dato
+C-041;;;No encontrado;Normas eléctricas aplicables a la instalación;—;ECRI no reporta este dato
+C-042;;;No encontrado;Agua de refrigeración requerida desde el sitio;L/min;ECRI no reporta este dato
+C-043;;;No encontrado;Chiller o intercambiador: incluido en la oferta o a cargo de la clínica;—;ECRI no reporta este dato
+C-044;;;No encontrado;Climatización de la sala del equipo y de la sala de máquinas;kW (carga térmica);ECRI no reporta este dato
+C-045;;;No encontrado;Redundancia y contingencia del sistema de refrigeración;—;ECRI no reporta este dato
+C-046;;;No encontrado;Ruta de ingreso del equipo;kg (componente más pesado);ECRI no reporta este dato
+E-086;356 × 387 × 248;ECRI (Linear Accele, hoja 1), celda D27;Declarado;Dimensiones del equipo;cm × cm × cm;
+E-087;6600;ECRI (Linear Accele, hoja 1), celda D28;Declarado;Peso total del equipo;kg;
+C-004;;;No encontrado;Capacidad de actualización a niveles superiores de radioterapia;—;ECRI no presenta rutas de actualización
+C-033;;;No encontrado;Plazo de obra civil del búnker;meses;ECRI no reporta este dato
+C-047;16;ECRI (Linear Accele, hoja 1), celda D94;Declarado;Plazos de entrega e instalación;semanas;ECRI: ~16 semanas
+C-054;;;No encontrado;Periodicidad del mantenimiento preventivo;meses entre visitas;ECRI no reporta este dato
+C-056;SRV-01|SRV-03|SRV-04;Folleto Elekta Infinity LPCINF190102 (2019), elekta.com + ECRI D88;Declarado;Servicios de posventa ofrecidos por el proveedor;servicios;"Elekta Care con soporte 24/7 y aprendizaje continuo; IntelliMax con monitoreo remoto (más del 30 % de fallas se resuelven en remoto)"
+C-060;12;ECRI (Linear Accele, hoja 1), celda D91;Declarado;Garantía;meses;ECRI: 1 año
+C-061;;;No encontrado;Componentes de vida limitada y su costo de reemplazo;USD;ECRI no reporta este dato
+C-062;;;No encontrado;Actualizaciones de software y hardware;—;ECRI no reporta este dato
+E-025;;;No encontrado;Distribución y parámetros de la cabeza terapéutica;—;ECRI no reporta este dato
+E-026;;;No encontrado;Cámaras monitoras de dosis;cámaras;ECRI no reporta este dato
+E-032;12.5;ECRI (Linear Accele, hoja 1), celda D40;Declarado;Sobre-recorrido e interdigitación;cm;125 mm convertidos a cm
+E-035;;;No encontrado;Fuga de radiación del cabezal;%;ECRI no reporta este dato
+E-038;;;No encontrado;Rangos de baja, mediana y alta energía (si aplica);—;ECRI no reporta este dato
+E-039;;;No encontrado;Modos mono o multienergéticos;energías;ECRI no da un solo número de energías
+E-042;;;No encontrado;Calidad del haz;TPR20,10 / R50;ECRI no reporta este dato
+E-043;;;No encontrado;Uniformidad del haz;% (planicidad);ECRI no reporta este dato
+E-044;;;No encontrado;Estabilidad y reproducibilidad de dosis;%;ECRI no reporta este dato
+E-045;FFF|HIM;ECRI (Linear Accele, hoja 1), celda D46 + D47;Declarado;Modos especiales;modos;HIM solo en 6 MV
+E-046;;;No encontrado;Tipo y dimensiones del gantry;brazo en C / anillo;ECRI no reporta este dato
+E-047;365;ECRI (Linear Accele, hoja 1), celda D23;Declarado;Rango de movimiento del gantry;°;
+E-049;45;ECRI D38 + J Appl Clin Med Phys 2016 (Versa HD/Agility: espacio libre al isocentro 45 cm);Verificado;Distancia al isocentro (SAD) y apertura;cm (apertura);"Distancia colimador-isocentro; SAD = 100 cm"
+E-050;365;ECRI (Linear Accele, hoja 1), celda D30;Declarado;Rotación del colimador;°;
+E-052;Sí;ECRI (Linear Accele, hoja 1), celda D88;Declarado;Láseres e indicador óptico de distancia;—;Accesorio opcional (láseres verdes o rojos)
+E-054;;;No encontrado;Rangos de movimiento;cm;"Hay tres rangos y el criterio admite un solo número. ECRI (cm): Infinity vertical 65-175, longitudinal 100, lateral ±25; TrueBeam vertical 106, longitudinal ≥145, lateral ±24.5"
+E-056;230 × 50;ECRI (Linear Accele, hoja 1), celda D70;Declarado;Dimensiones de la camilla y del tablero;cm × cm;
+E-058;;;No encontrado;Atenuación del tablero y material;%;ECRI no reporta este dato
+E-060;Sí;ECRI (Linear Accele, hoja 1), celda D78;Declarado;Corrección remota de posición;—;
+E-062;Registro avanzado de imagen que considera la posición del blanco y estructuras críticas;ECRI (Linear Accele, hoja 1), celda D97;Declarado;Herramienta de visualización y registro de imágenes;—;
+E-063;;;No encontrado;Dosis de imagen;mGy;ECRI no reporta este dato
+E-065;;;No encontrado;Guía por superficie (SGRT);—;ECRI no lista monitoreo de superficie para Infinity
+E-066;;;No encontrado;Capacidad de adaptación en línea;—;ECRI no reporta este dato
+E-068;Soporta interfaces estándar de la industria;ECRI (Linear Accele, hoja 1), celda D58;Declarado;Sistema de registro y verificación;—;
+E-069;;;No encontrado;Compatibilidad con planificadores de terceros;formatos;ECRI dice 'interfaces estándar de la industria' sin citar DICOM-RT ni formatos
+E-070;;;No encontrado;Eficiencia del flujo de trabajo;min por fracción;ECRI no reporta este dato
+E-075;Sí;ECRI (Linear Accele, hoja 1), celda D79;Declarado;Protección ante alteraciones del suministro eléctrico;—;Parcial: UPS solo en el movimiento descendente de la camilla
+E-076;Sí;ECRI (Linear Accele, hoja 1), celda D88;Declarado;Comunicación operador-paciente;—;Sistema de intercomunicación (accesorio opcional)
+E-077;Sí;ECRI (Linear Accele, hoja 1), celda D88;Declarado;Circuito cerrado de video;—;Circuito cerrado de TV en sala (accesorio opcional)
+E-079;Accionamiento silencioso en todos los movimientos, velocidad variable, tablero de camilla giratorio;ECRI (Linear Accele, hoja 1), celda D79;Declarado;Confort del paciente;—;
+E-088;;;No encontrado;Confort del operador;—;ECRI no reporta este dato
+E-089;ACC-01|ACC-04|ACC-05;ECRI (Linear Accele, hoja 1), celda D33 + D88;Declarado;Listado de accesorios que vienen con el equipo;accesorios;"ACC-01 inferido de los tamaños de campo de electrones; dispositivos de inmovilización y herramientas de control de calidad como opcionales"
+O-002;IntelliMax: monitoreo remoto del sistema en tiempo real y resolución remota de fallas;Folleto Elekta Infinity LPCINF190102 (2019), elekta.com + ECRI D88;Declarado;Acceso remoto de servicio;—;
+O-003;;;No encontrado;Instalaciones del modelo en Colombia y Latinoamérica;instalaciones;ECRI no reporta este dato
+O-004;;;No encontrado;Impacto ambiental del equipo;—;ECRI no reporta este dato
+O-005;;;No encontrado;Activación y desmantelamiento de componentes;—;ECRI no reporta este dato

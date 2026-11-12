@@ -1,0 +1,574 @@
+{
+ "titulo": "Linac para servicio de radioterapia",
+ "nombres": {
+  "A": "Varian TrueBeam",
+  "B": "Elekta Infinity"
+ },
+ "vida_util": 10,
+ "perfil": {
+  "nivel": "Avanzada",
+  "tecnicas": [
+   "VMAT",
+   "SRS/SBRT"
+  ],
+  "pacientes": "25–50"
+ },
+ "datos": {
+  "A": {
+   "E-027": {
+    "valor": "MLC Millennium 120 / HD120",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E34 + E37",
+    "estado": "Declarado",
+    "nota": "ECRI no describe las mordazas; la variante (Millennium o HD120) no está definida"
+   },
+   "E-028": {
+    "valor": "120",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E35",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-029": {
+    "valor": "5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E37",
+    "estado": "Declarado",
+    "nota": "Millennium-120: 5 mm centrales y 10 mm periféricas; HD120 (opcional): 2.5 y 5 mm. Se registra el ancho central del Millennium"
+   },
+   "E-030": {
+    "valor": "2.5",
+    "fuente": "J Cancer 2019;10:6135 (Millennium 120, velocidad máx. 2.5 cm/s)",
+    "estado": "Declarado",
+    "nota": "Fuente secundaria; el folleto de Varian no publica la velocidad de láminas"
+   },
+   "E-031": {
+    "valor": "0.25",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E41",
+    "estado": "Declarado",
+    "nota": "Exactitud relativa de láminas"
+   },
+   "E-033": {
+    "valor": "2.5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E39",
+    "estado": "Declarado",
+    "nota": "ECRI no indica si es promedio o máximo. Diapositivas de comisionamiento de TrueBeam (secundarias) reportan transmisión promedio de 1.15 a 1.48 % con filtro; conviene validar con el fabricante"
+   },
+   "E-034": {
+    "valor": "40 × 40 / n.e.",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E32",
+    "estado": "Declarado",
+    "nota": "ECRI no reporta el campo mínimo"
+   },
+   "E-036": {
+    "valor": "4|6|8|10|15|18|20",
+    "fuente": "Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842 + ECRI E14",
+    "estado": "Declarado",
+    "nota": "Energías de la tabla del folleto; configurable hasta 7 energías de fotón en total, incluidos 2 modos de alta intensidad (6X y 10X). ECRI cita 4-25 MV según BJR 17"
+   },
+   "E-037": {
+    "valor": "6|9|12|15|16|18|20|22",
+    "fuente": "Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842 + ECRI E15",
+    "estado": "Verificado",
+    "nota": "Configurable con 0 a 8 energías (ECRI: 8 energías entre 6 y 22 MeV)"
+   },
+   "E-040": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E47",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-041": {
+    "valor": "2400",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E65",
+    "estado": "Declarado",
+    "nota": "cGy/min tomado como UM/min; máximo en modo alta intensidad 10 MV (600 en modo estándar)"
+   },
+   "E-048": {
+    "valor": "0.3",
+    "fuente": "ECRI E24 + Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842",
+    "estado": "Verificado",
+    "nota": "Precisión rotacional del gantry ≤0.3°"
+   },
+   "E-051": {
+    "valor": "0.75",
+    "fuente": "Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842",
+    "estado": "Declarado",
+    "nota": "Radio de isocentro ≤0.75 mm con gantry, colimador y camilla (0.5 mm solo gantry y colimador)"
+   },
+   "E-053": {
+    "valor": "6",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E76",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-057": {
+    "valor": "227",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E77",
+    "estado": "Declarado",
+    "nota": "Con tablero IGRT; 200 kg con camilla PerfectPitch (6 grados de libertad)"
+   },
+   "E-059": {
+    "valor": "INM-02|INM-03|INM-05",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E79",
+    "estado": "Declarado",
+    "nota": "Barras de localización (INM-02), solución prona para mama (INM-03), CIVCO Body Pro-Lok para SBRT (INM-05)"
+   },
+   "E-061": {
+    "valor": "IMG-01|IMG-02|IMG-03|IMG-05",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E49 + E50 + E53 + E88",
+    "estado": "Declarado",
+    "nota": "Imager MV, imager kV, CBCT; sistema de monitoreo de superficie como accesorio opcional"
+   },
+   "E-064": {
+    "valor": "RES-01|RES-02|RES-04|RES-06",
+    "fuente": "FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov + Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf + ECRI E55",
+    "estado": "Declarado",
+    "nota": "Gating con cámara única y dispositivo de coaching visual (RES-01, RES-06); gating en tiempo real que soporta DIBH (RES-02); Calypso opcional para seguimiento en tiempo real (RES-04)"
+   },
+   "E-067": {
+    "valor": "TEC-01|TEC-03|TEC-04|TEC-05|TEC-06|TEC-07|TEC-08|TEC-09|TEC-10|TEC-11",
+    "fuente": "FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov + ECRI E10;E12;E13;E42;E43",
+    "estado": "Declarado",
+    "nota": "510(k): SRS/SRT, RapidArc/VMAT, IMRT, tratamientos de cuerpo total con fotones y electrones (TBI y TSET), electrones, IGRT"
+   },
+   "E-071": {
+    "valor": "VER-01|VER-02|VER-03",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E45 + E62 + E41",
+    "estado": "Declarado",
+    "nota": "VER-01: autoverificación de 18 parámetros y verificación del colimador cónico (ICVI); VER-03 inferido del monitoreo de posición de láminas"
+   },
+   "E-072": {
+    "valor": "DOS-04",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E61",
+    "estado": "Declarado",
+    "nota": "Muestra dosis acumulada y tasa de dosis (interpretación)"
+   },
+   "E-073": {
+    "valor": "PAR-02|PAR-03",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E62 + E45",
+    "estado": "Declarado",
+    "nota": "PAR-03: pausa automática del haz si los marcadores quedan fuera de tolerancia"
+   },
+   "E-074": {
+    "valor": "LaserGuard II (detección láser de colisión del gantry) + protectores táctiles + detección capacitiva de proximidad",
+    "fuente": "FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov",
+    "estado": "Declarado",
+    "nota": "Hay contacto y proximidad (equivale a ANT-01, ANT-02 y ANT-03); Varian lo describe como 'Collision Avoidance'"
+   },
+   "E-078": {
+    "valor": "Sí",
+    "fuente": "FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov",
+    "estado": "Verificado",
+    "nota": "Conformidad con IEC 60601-2-1:2009/A1:2014 listada en el 510(k)"
+   },
+   "C-048": {
+    "valor": "6428000",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E90",
+    "estado": "Declarado",
+    "nota": "Precio de lista; derivado de la base PricePaid de Staritas"
+   },
+   "C-022": {
+    "valor": "5.8 × 4.9",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E84",
+    "estado": "Declarado",
+    "nota": "Tamaño mínimo recomendado de sala"
+   },
+   "C-023": {
+    "valor": "3.1",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E84",
+    "estado": "Declarado",
+    "nota": "Tamaño mínimo recomendado de sala"
+   },
+   "C-038": {
+    "valor": "45",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E87",
+    "estado": "Declarado",
+    "nota": "kVA con haz encendido"
+   },
+   "E-086": {
+    "valor": "372 × 124 × 264",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E27",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-087": {
+    "valor": "9660",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E28",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-056": {
+    "valor": "SRV-01|SRV-02|SRV-04",
+    "fuente": "Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf",
+    "estado": "Declarado",
+    "nota": "Planes de mantenimiento programado, repuestos OEM, actualizaciones de software y seguridad, monitoreo remoto SmartConnect Plus"
+   },
+   "C-062": {
+    "valor": "Actualizaciones de software y de seguridad que protegen datos del hospital y del paciente",
+    "fuente": "Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-032": {
+    "valor": "20",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E40",
+    "estado": "Declarado",
+    "nota": "200 mm convertidos a cm. Fuentes secundarias reportan 14.5-15 cm para el MLC Millennium; conviene validar con el fabricante"
+   },
+   "E-045": {
+    "valor": "FFF|HIM|HDTSE",
+    "fuente": "Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842",
+    "estado": "Declarado",
+    "nota": "HIM 6X (1400 UM/min) y 10X (2400 UM/min); HDTSE 6 y 9 MeV a 2500 UM/min (piel total con electrones)"
+   },
+   "E-047": {
+    "valor": "370",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E23",
+    "estado": "Declarado",
+    "nota": "±185° expresado como rango total"
+   },
+   "E-049": {
+    "valor": "43.3",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E38",
+    "estado": "Declarado",
+    "nota": "Distancia colimador-isocentro; SAD = 100 cm"
+   },
+   "E-050": {
+    "valor": "350",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E30",
+    "estado": "Declarado",
+    "nota": "±175° expresado como rango total"
+   },
+   "E-056": {
+    "valor": "236 × 53",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E70",
+    "estado": "Declarado",
+    "nota": "Camilla EXACT; opcional 200 × 53 (IGRT)"
+   },
+   "E-060": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E78",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-062": {
+    "valor": "Proyección de estructuras de planificación sobre las imágenes adquiridas durante el tratamiento",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E45",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-065": {
+    "valor": "Sí",
+    "fuente": "Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf + ECRI E88",
+    "estado": "Declarado",
+    "nota": "Sistema óptico de monitoreo de superficie, opcional"
+   },
+   "E-068": {
+    "valor": "Compatible con sistemas de registro y verificación; ARIA como sistema de información oncológico opcional",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E58 + E88",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-069": {
+    "valor": "DCM-01|DCM-02",
+    "fuente": "FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov",
+    "estado": "Declarado",
+    "nota": "Importación y exportación de datos e imágenes DICOM RT/3.0"
+   },
+   "E-077": {
+    "valor": "Sí",
+    "fuente": "Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842",
+    "estado": "Declarado",
+    "nota": "Cámara de circuito cerrado 'Safewatch' en la consola"
+   },
+   "E-079": {
+    "valor": "Sistema CIVCO Body Pro-Lok para posicionamiento cómodo en SBRT; solución prona para mama",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E79",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-089": {
+    "valor": "ACC-01|ACC-04",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda E33 + E79",
+    "estado": "Declarado",
+    "nota": "ACC-01 inferido de los tamaños de campo de electrones; correas del paciente y Body Pro-Lok"
+   },
+   "O-002": {
+    "valor": "SmartConnect Plus: monitoreo remoto del equipo y asistencia en tiempo real con escritorio compartido",
+    "fuente": "Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf",
+    "estado": "Declarado",
+    "nota": ""
+   }
+  },
+  "B": {
+   "E-027": {
+    "valor": "MLC Agility",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D34",
+    "estado": "Declarado",
+    "nota": "ECRI no describe las mordazas"
+   },
+   "E-028": {
+    "valor": "160",
+    "fuente": "ECRI D35 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com",
+    "estado": "Verificado",
+    "nota": "160 láminas de 5 mm en todo el campo de 40 × 40 cm"
+   },
+   "E-029": {
+    "valor": "5",
+    "fuente": "ECRI D37 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com",
+    "estado": "Verificado",
+    "nota": ""
+   },
+   "E-030": {
+    "valor": "6.5",
+    "fuente": "ECRI D45 + Folleto Elekta Infinity LPCINF190102 (2019), elekta.com",
+    "estado": "Verificado",
+    "nota": "Hasta 6.5 cm/s (carro 3 cm/s + lámina 3.5 cm/s según literatura)"
+   },
+   "E-033": {
+    "valor": "0.5",
+    "fuente": "ECRI D39 + OSTI SU-E-T-119 (comisionamiento de dos Infinity: transmisión con fuga entre láminas 0.5 %)",
+    "estado": "Verificado",
+    "nota": "ECRI: <0.375 promedio, <0.5 máximo; se registra el máximo"
+   },
+   "E-034": {
+    "valor": "40 × 40 / 0.5 × 0.5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D32",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-036": {
+    "valor": "4|6|8|10|15|18|25",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D14",
+    "estado": "Declarado",
+    "nota": "Configurable: se eligen de 1 a 3 energías"
+   },
+   "E-037": {
+    "valor": "4|6|8|9|10|12|15|18|20|22",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D15",
+    "estado": "Declarado",
+    "nota": "Configurable: se eligen de 3 a 9 energías"
+   },
+   "E-040": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D47",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-041": {
+    "valor": "1400",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D65",
+    "estado": "Declarado",
+    "nota": "cGy/min tomado como UM/min; 1400 en modo alta intensidad 6 MV"
+   },
+   "E-051": {
+    "valor": "1",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D24",
+    "estado": "Declarado",
+    "nota": "ECRI: ≤1 mm, coincidencia de isocentro de radiación e imagen"
+   },
+   "E-053": {
+    "valor": "3",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D76",
+    "estado": "Declarado",
+    "nota": "3-D de base; 6-D es opcional"
+   },
+   "E-057": {
+    "valor": "250",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D77",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-061": {
+    "valor": "IMG-01|IMG-02|IMG-03",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D49 + D50 + D53",
+    "estado": "Declarado",
+    "nota": "iViewGT (MV), XVI (kV y CBCT)"
+   },
+   "E-064": {
+    "valor": "RES-01",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D55 + D88",
+    "estado": "Declarado",
+    "nota": "Gating opcional"
+   },
+   "E-067": {
+    "valor": "TEC-01|TEC-03|TEC-04|TEC-07|TEC-08|TEC-09",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D10 + D13 + D42 + D43 + D45 + D97",
+    "estado": "Declarado",
+    "nota": "IMRT dinámico por láminas móviles; VMAT. SRS no incluido: ECRI lo da 'con accesorios', pero el 510(k) K210500 asigna SRS solo a la configuración Versa HD (Infinity: SBRT/SABR)"
+   },
+   "E-071": {
+    "valor": "VER-02|VER-03",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D62 + D41",
+    "estado": "Declarado",
+    "nota": "VER-03: monitoreo óptico de láminas en tiempo real (Rubicon, folleto Elekta 2019)"
+   },
+   "E-072": {
+    "valor": "DOS-04",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D61",
+    "estado": "Declarado",
+    "nota": "Muestra dosis acumulada y tasa de dosis (interpretación)"
+   },
+   "E-073": {
+    "valor": "PAR-02",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D62",
+    "estado": "Declarado",
+    "nota": "Interlock ante falla, listado dentro del sistema dosimétrico"
+   },
+   "E-078": {
+    "valor": "Sí",
+    "fuente": "FDA 510(k) K121328 Elekta Agility, accessdata.fda.gov",
+    "estado": "Declarado",
+    "nota": "El 510(k) de Agility cita IEC 60601-2-1 entre las normas aplicadas; K252188 (2025) menciona cumplimiento de la 4.ª edición"
+   },
+   "C-048": {
+    "valor": "6400000",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D90",
+    "estado": "Declarado",
+    "nota": "Precio de lista"
+   },
+   "C-022": {
+    "valor": "6.5 × 6",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D84",
+    "estado": "Declarado",
+    "nota": "Tamaño mínimo recomendado de sala"
+   },
+   "C-023": {
+    "valor": "3.2",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D84",
+    "estado": "Declarado",
+    "nota": "Tamaño mínimo recomendado de sala"
+   },
+   "C-038": {
+    "valor": "30",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D87",
+    "estado": "Declarado",
+    "nota": "ECRI: ≤30 kVA"
+   },
+   "E-086": {
+    "valor": "356 × 387 × 248",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D27",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-087": {
+    "valor": "6600",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D28",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "C-047": {
+    "valor": "16",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D94",
+    "estado": "Declarado",
+    "nota": "ECRI: ~16 semanas"
+   },
+   "C-056": {
+    "valor": "SRV-01|SRV-03|SRV-04",
+    "fuente": "Folleto Elekta Infinity LPCINF190102 (2019), elekta.com + ECRI D88",
+    "estado": "Declarado",
+    "nota": "Elekta Care con soporte 24/7 y aprendizaje continuo; IntelliMax con monitoreo remoto (más del 30 % de fallas se resuelven en remoto)"
+   },
+   "C-060": {
+    "valor": "12",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D91",
+    "estado": "Declarado",
+    "nota": "ECRI: 1 año"
+   },
+   "E-032": {
+    "valor": "12.5",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D40",
+    "estado": "Declarado",
+    "nota": "125 mm convertidos a cm"
+   },
+   "E-045": {
+    "valor": "FFF|HIM",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D46 + D47",
+    "estado": "Declarado",
+    "nota": "HIM solo en 6 MV"
+   },
+   "E-047": {
+    "valor": "365",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D23",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-049": {
+    "valor": "45",
+    "fuente": "ECRI D38 + J Appl Clin Med Phys 2016 (Versa HD/Agility: espacio libre al isocentro 45 cm)",
+    "estado": "Verificado",
+    "nota": "Distancia colimador-isocentro; SAD = 100 cm"
+   },
+   "E-050": {
+    "valor": "365",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D30",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-052": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D88",
+    "estado": "Declarado",
+    "nota": "Accesorio opcional (láseres verdes o rojos)"
+   },
+   "E-056": {
+    "valor": "230 × 50",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D70",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-060": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D78",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-062": {
+    "valor": "Registro avanzado de imagen que considera la posición del blanco y estructuras críticas",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D97",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-068": {
+    "valor": "Soporta interfaces estándar de la industria",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D58",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-075": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D79",
+    "estado": "Declarado",
+    "nota": "Parcial: UPS solo en el movimiento descendente de la camilla"
+   },
+   "E-076": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D88",
+    "estado": "Declarado",
+    "nota": "Sistema de intercomunicación (accesorio opcional)"
+   },
+   "E-077": {
+    "valor": "Sí",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D88",
+    "estado": "Declarado",
+    "nota": "Circuito cerrado de TV en sala (accesorio opcional)"
+   },
+   "E-079": {
+    "valor": "Accionamiento silencioso en todos los movimientos, velocidad variable, tablero de camilla giratorio",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D79",
+    "estado": "Declarado",
+    "nota": ""
+   },
+   "E-089": {
+    "valor": "ACC-01|ACC-04|ACC-05",
+    "fuente": "ECRI (Linear Accele, hoja 1), celda D33 + D88",
+    "estado": "Declarado",
+    "nota": "ACC-01 inferido de los tamaños de campo de electrones; dispositivos de inmovilización y herramientas de control de calidad como opcionales"
+   },
+   "O-002": {
+    "valor": "IntelliMax: monitoreo remoto del sistema en tiempo real y resolución remota de fallas",
+    "fuente": "Folleto Elekta Infinity LPCINF190102 (2019), elekta.com + ECRI D88",
+    "estado": "Declarado",
+    "nota": ""
+   }
+  }
+ }
+}

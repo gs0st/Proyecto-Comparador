@@ -1,0 +1,104 @@
+﻿codigo;respuesta;fuente;estado;criterio;unidad;observacion
+C-057;;;No encontrado;Servicio técnico propio o autorizado en Colombia, con ingenieros certificados por el fabricante para el modelo;—;ECRI no cubre servicio técnico, repuestos ni capacitación en Colombia
+C-058;;;No encontrado;Capacidad de respuesta comprometida y disponibilidad de repuestos críticos en el país;% disponibilidad (umbral ≥ 95);ECRI no cubre servicio técnico, repuestos ni capacitación en Colombia
+C-059;;;No encontrado;Plan de capacitación para físicos médicos, técnicos y radioterapeutas;—;ECRI no cubre servicio técnico, repuestos ni capacitación en Colombia
+E-027;MLC Millennium 120 / HD120;ECRI (Linear Accele, hoja 1), celda E34 + E37;Declarado;Tipo de colimador y de mordazas;tipo (orden definido en catálogo);"ECRI no describe las mordazas; la variante (Millennium o HD120) no está definida"
+E-028;120;ECRI (Linear Accele, hoja 1), celda E35;Declarado;Número de láminas del colimador multilámina;láminas;
+E-029;5;ECRI (Linear Accele, hoja 1), celda E37;Declarado;Dimensiones de las láminas;mm (ancho a isocentro);"Millennium-120: 5 mm centrales y 10 mm periféricas; HD120 (opcional): 2.5 y 5 mm. Se registra el ancho central del Millennium"
+E-030;2.5;"J Cancer 2019;10:6135 (Millennium 120, velocidad máx. 2.5 cm/s)";Declarado;Velocidad de las láminas;cm/s;"Fuente secundaria; el folleto de Varian no publica la velocidad de láminas"
+E-031;0.25;ECRI (Linear Accele, hoja 1), celda E41;Declarado;Precisión del colimado;mm;Exactitud relativa de láminas
+E-033;2.5;ECRI (Linear Accele, hoja 1), celda E39;Declarado;Transmisión y fuga entre láminas;%;"ECRI no indica si es promedio o máximo. Diapositivas de comisionamiento de TrueBeam (secundarias) reportan transmisión promedio de 1.15 a 1.48 % con filtro; conviene validar con el fabricante"
+E-034;40 × 40 / n.e.;ECRI (Linear Accele, hoja 1), celda E32;Declarado;Tamaño máximo y mínimo de campo;cm × cm (máx. ↑ / mín. ↓);ECRI no reporta el campo mínimo
+E-036;4|6|8|10|15|18|20;Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842 + ECRI E14;Declarado;Energías de fotones;MV;"Energías de la tabla del folleto; configurable hasta 7 energías de fotón en total, incluidos 2 modos de alta intensidad (6X y 10X). ECRI cita 4-25 MV según BJR 17"
+E-037;6|9|12|15|16|18|20|22;Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842 + ECRI E15;Verificado;Energías de electrones;MeV;Configurable con 0 a 8 energías (ECRI: 8 energías entre 6 y 22 MeV)
+E-040;Sí;ECRI (Linear Accele, hoja 1), celda E47;Declarado;Presencia de filtro aplanador libre (FFF);—;
+E-041;2400;ECRI (Linear Accele, hoja 1), celda E65;Declarado;Tasa de dosis;UM/min;"cGy/min tomado como UM/min; máximo en modo alta intensidad 10 MV (600 en modo estándar)"
+E-048;0.3;ECRI E24 + Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842;Verificado;Precisión del gantry;°;Precisión rotacional del gantry ≤0.3°
+E-051;0.75;Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842;Declarado;Precisión del isocentro;mm (radio);Radio de isocentro ≤0.75 mm con gantry, colimador y camilla (0.5 mm solo gantry y colimador)
+E-053;6;ECRI (Linear Accele, hoja 1), celda E76;Declarado;Ejes de movimiento;grados de libertad;
+E-055;;;No encontrado;Precisión de la camilla;mm;ECRI no reporta este dato
+E-057;227;ECRI (Linear Accele, hoja 1), celda E77;Declarado;Capacidad de peso del paciente;kg;"Con tablero IGRT; 200 kg con camilla PerfectPitch (6 grados de libertad)"
+E-059;INM-02|INM-03|INM-05;ECRI (Linear Accele, hoja 1), celda E79;Declarado;Compatibilidad con máscaras e inmovilizadores;sistemas compatibles;Barras de localización (INM-02), solución prona para mama (INM-03), CIVCO Body Pro-Lok para SBRT (INM-05)
+E-061;IMG-01|IMG-02|IMG-03|IMG-05;ECRI (Linear Accele, hoja 1), celda E49 + E50 + E53 + E88;Declarado;Imágenes captadas por el equipo;modalidades;"Imager MV, imager kV, CBCT; sistema de monitoreo de superficie como accesorio opcional"
+E-064;RES-01|RES-02|RES-04|RES-06;FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov + Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf + ECRI E55;Declarado;Sistema de manejo del movimiento respiratorio;modalidades;"Gating con cámara única y dispositivo de coaching visual (RES-01, RES-06); gating en tiempo real que soporta DIBH (RES-02); Calypso opcional para seguimiento en tiempo real (RES-04)"
+E-067;TEC-01|TEC-03|TEC-04|TEC-05|TEC-06|TEC-07|TEC-08|TEC-09|TEC-10|TEC-11;"FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov + ECRI E10;E12;E13;E42;E43";Declarado;Técnicas de tratamiento soportadas;técnicas;510(k): SRS/SRT, RapidArc/VMAT, IMRT, tratamientos de cuerpo total con fotones y electrones (TBI y TSET), electrones, IGRT
+E-071;VER-01|VER-02|VER-03;ECRI (Linear Accele, hoja 1), celda E45 + E62 + E41;Declarado;Sistemas de verificación internos;verificaciones;"VER-01: autoverificación de 18 parámetros y verificación del colimador cónico (ICVI); VER-03 inferido del monitoreo de posición de láminas"
+E-072;DOS-04;ECRI (Linear Accele, hoja 1), celda E61;Declarado;Equipo de control de dosificación;funciones;Muestra dosis acumulada y tasa de dosis (interpretación)
+E-073;PAR-02|PAR-03;ECRI (Linear Accele, hoja 1), celda E62 + E45;Declarado;Sistemas de parada ante condiciones no óptimas;condiciones de parada;PAR-03: pausa automática del haz si los marcadores quedan fuera de tolerancia
+E-074;LaserGuard II (detección láser de colisión del gantry) + protectores táctiles + detección capacitiva de proximidad;FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov;Declarado;Anticolisión gantry-camilla-paciente;tipo (orden definido en catálogo);"Hay contacto y proximidad (equivale a ANT-01, ANT-02 y ANT-03); Varian lo describe como 'Collision Avoidance'"
+E-078;Sí;FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov;Verificado;Conformidad con la norma de seguridad de aceleradores médicos;—;Conformidad con IEC 60601-2-1:2009/A1:2014 listada en el 510(k)
+O-001;;;No encontrado;Protección de los datos recolectados del paciente;controles;ECRI no reporta controles de protección de datos
+C-048;6428000;ECRI (Linear Accele, hoja 1), celda E90;Declarado;Costo de compra del equipo (por configuración ofertada);USD;"Precio de lista; derivado de la base PricePaid de Staritas"
+C-049;;;No encontrado;Costo de envío y seguro;USD;ECRI no reporta este dato
+C-050;;;No encontrado;Costos de servicios previos y durante la instalación;USD;ECRI no reporta este dato
+C-051;;;No encontrado;Costo de capacitación inicial;USD;ECRI no reporta este dato
+C-052;;;No encontrado;Obra civil, blindaje y adecuaciones asociadas;USD;ECRI no reporta este dato
+C-053;;;No encontrado;Impuestos, aranceles y moneda de pago;USD;ECRI no reporta este dato
+C-055;;;No encontrado;Costo esperado de los mantenimientos preventivos y del contrato de servicio;USD/año;ECRI no reporta costo de mantenimiento
+C-017;;;No encontrado;Polietileno borado;cm;ECRI no reporta este dato
+C-018;;;No encontrado;Barreras primarias y secundarias;cm de hormigón equivalente (primaria / secundaria);ECRI no reporta este dato
+C-019;;;No encontrado;Laberinto y puerta de la sala;kg (puerta);ECRI no reporta este dato
+C-020;;;No encontrado;Pasos tecnológicos en el blindaje;—;ECRI no reporta este dato
+C-021;;;No encontrado;Blindaje de techo y piso;cm;ECRI no reporta este dato
+C-022;5.8 × 4.9;ECRI (Linear Accele, hoja 1), celda E84;Declarado;Sala de tratamiento (dimensiones interiores);m × m;Tamaño mínimo recomendado de sala
+C-023;3.1;ECRI (Linear Accele, hoja 1), celda E84;Declarado;Altura libre de la sala de tratamiento;m;Tamaño mínimo recomendado de sala
+C-024;;;No encontrado;Longitud y ancho del laberinto;m (longitud);ECRI no reporta este dato
+C-026;;;No encontrado;Sala de equipos o de máquinas;m²;ECRI no reporta este dato
+C-030;;;No encontrado;Reforzamiento estructural y carga sobre el piso;kN/m²;ECRI no reporta este dato
+C-031;;;No encontrado;Anclajes, embebidos y canaletas del equipo;—;ECRI no reporta este dato
+C-032;;;No encontrado;Tolerancias de nivelación del piso;mm (tolerancia permitida);ECRI no reporta este dato
+C-038;45;ECRI (Linear Accele, hoja 1), celda E87;Declarado;Alimentación eléctrica del equipo;kVA;kVA con haz encendido
+C-039;;;No encontrado;Protecciones de la red eléctrica para funcionamiento seguro;—;ECRI no reporta este dato
+C-040;;;No encontrado;Subestación o transformador dedicado;—;ECRI no reporta este dato
+C-041;;;No encontrado;Normas eléctricas aplicables a la instalación;—;ECRI no reporta este dato
+C-042;;;No encontrado;Agua de refrigeración requerida desde el sitio;L/min;ECRI no reporta este dato
+C-043;;;No encontrado;Chiller o intercambiador: incluido en la oferta o a cargo de la clínica;—;ECRI no reporta este dato
+C-044;;;No encontrado;Climatización de la sala del equipo y de la sala de máquinas;kW (carga térmica);ECRI no reporta este dato
+C-045;;;No encontrado;Redundancia y contingencia del sistema de refrigeración;—;ECRI no reporta este dato
+C-046;;;No encontrado;Ruta de ingreso del equipo;kg (componente más pesado);ECRI no reporta este dato
+E-086;372 × 124 × 264;ECRI (Linear Accele, hoja 1), celda E27;Declarado;Dimensiones del equipo;cm × cm × cm;
+E-087;9660;ECRI (Linear Accele, hoja 1), celda E28;Declarado;Peso total del equipo;kg;
+C-004;;;No encontrado;Capacidad de actualización a niveles superiores de radioterapia;—;ECRI no presenta rutas de actualización
+C-033;;;No encontrado;Plazo de obra civil del búnker;meses;ECRI no reporta este dato
+C-047;;;No encontrado;Plazos de entrega e instalación;semanas;ECRI indica 'no especificado' para TrueBeam
+C-054;;;No encontrado;Periodicidad del mantenimiento preventivo;meses entre visitas;ECRI no reporta este dato
+C-056;SRV-01|SRV-02|SRV-04;Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf;Declarado;Servicios de posventa ofrecidos por el proveedor;servicios;Planes de mantenimiento programado, repuestos OEM, actualizaciones de software y seguridad, monitoreo remoto SmartConnect Plus
+C-060;;;No encontrado;Garantía;meses;ECRI indica garantía 'Sí' sin duración
+C-061;;;No encontrado;Componentes de vida limitada y su costo de reemplazo;USD;ECRI no reporta este dato
+C-062;Actualizaciones de software y de seguridad que protegen datos del hospital y del paciente;Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf;Declarado;Actualizaciones de software y hardware;—;
+E-025;;;No encontrado;Distribución y parámetros de la cabeza terapéutica;—;ECRI no reporta este dato
+E-026;;;No encontrado;Cámaras monitoras de dosis;cámaras;ECRI no reporta este dato
+E-032;20;ECRI (Linear Accele, hoja 1), celda E40;Declarado;Sobre-recorrido e interdigitación;cm;"200 mm convertidos a cm. Fuentes secundarias reportan 14.5-15 cm para el MLC Millennium; conviene validar con el fabricante"
+E-035;;;No encontrado;Fuga de radiación del cabezal;%;ECRI no reporta este dato
+E-038;;;No encontrado;Rangos de baja, mediana y alta energía (si aplica);—;ECRI no reporta este dato
+E-039;;;No encontrado;Modos mono o multienergéticos;energías;ECRI no da un solo número de energías
+E-042;;;No encontrado;Calidad del haz;TPR20,10 / R50;ECRI no reporta este dato
+E-043;;;No encontrado;Uniformidad del haz;% (planicidad);ECRI no reporta este dato
+E-044;;;No encontrado;Estabilidad y reproducibilidad de dosis;%;ECRI no reporta este dato
+E-045;FFF|HIM|HDTSE;Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842;Declarado;Modos especiales;modos;"HIM 6X (1400 UM/min) y 10X (2400 UM/min); HDTSE 6 y 9 MeV a 2500 UM/min (piel total con electrones)"
+E-046;;;No encontrado;Tipo y dimensiones del gantry;brazo en C / anillo;ECRI no reporta este dato
+E-047;370;ECRI (Linear Accele, hoja 1), celda E23;Declarado;Rango de movimiento del gantry;°;±185° expresado como rango total
+E-049;43.3;ECRI (Linear Accele, hoja 1), celda E38;Declarado;Distancia al isocentro (SAD) y apertura;cm (apertura);"Distancia colimador-isocentro; SAD = 100 cm"
+E-050;350;ECRI (Linear Accele, hoja 1), celda E30;Declarado;Rotación del colimador;°;±175° expresado como rango total
+E-052;;;No encontrado;Láseres e indicador óptico de distancia;—;ECRI no lista láseres de alineación para TrueBeam
+E-054;;;No encontrado;Rangos de movimiento;cm;"Hay tres rangos y el criterio admite un solo número. ECRI (cm): Infinity vertical 65-175, longitudinal 100, lateral ±25; TrueBeam vertical 106, longitudinal ≥145, lateral ±24.5"
+E-056;236 × 53;ECRI (Linear Accele, hoja 1), celda E70;Declarado;Dimensiones de la camilla y del tablero;cm × cm;"Camilla EXACT; opcional 200 × 53 (IGRT)"
+E-058;;;No encontrado;Atenuación del tablero y material;%;ECRI no reporta este dato
+E-060;Sí;ECRI (Linear Accele, hoja 1), celda E78;Declarado;Corrección remota de posición;—;
+E-062;Proyección de estructuras de planificación sobre las imágenes adquiridas durante el tratamiento;ECRI (Linear Accele, hoja 1), celda E45;Declarado;Herramienta de visualización y registro de imágenes;—;
+E-063;;;No encontrado;Dosis de imagen;mGy;ECRI no reporta este dato
+E-065;Sí;Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf + ECRI E88;Declarado;Guía por superficie (SGRT);—;Sistema óptico de monitoreo de superficie, opcional
+E-066;;;No encontrado;Capacidad de adaptación en línea;—;ECRI no reporta este dato
+E-068;"Compatible con sistemas de registro y verificación; ARIA como sistema de información oncológico opcional";ECRI (Linear Accele, hoja 1), celda E58 + E88;Declarado;Sistema de registro y verificación;—;
+E-069;DCM-01|DCM-02;FDA 510(k) K213977 Varian TrueBeam v3.0, accessdata.fda.gov;Declarado;Compatibilidad con planificadores de terceros;formatos;Importación y exportación de datos e imágenes DICOM RT/3.0
+E-070;;;No encontrado;Eficiencia del flujo de trabajo;min por fracción;ECRI no reporta este dato
+E-075;;;No encontrado;Protección ante alteraciones del suministro eléctrico;—;ECRI no lo reporta para TrueBeam
+E-076;;;No encontrado;Comunicación operador-paciente;—;ECRI no lo reporta para TrueBeam
+E-077;Sí;Folleto Varian TrueBeam RAD 10119D (2013), ptacts.uspto.gov IPR2016-00842;Declarado;Circuito cerrado de video;—;Cámara de circuito cerrado 'Safewatch' en la consola
+E-079;"Sistema CIVCO Body Pro-Lok para posicionamiento cómodo en SBRT; solución prona para mama";ECRI (Linear Accele, hoja 1), celda E79;Declarado;Confort del paciente;—;
+E-088;;;No encontrado;Confort del operador;—;ECRI no reporta este dato
+E-089;ACC-01|ACC-04;ECRI (Linear Accele, hoja 1), celda E33 + E79;Declarado;Listado de accesorios que vienen con el equipo;accesorios;"ACC-01 inferido de los tamaños de campo de electrones; correas del paciente y Body Pro-Lok"
+O-002;SmartConnect Plus: monitoreo remoto del equipo y asistencia en tiempo real con escritorio compartido;Folleto Varian TrueBeam RAD 10452 (2018), cdn11.bigcommerce.com FT_Truebeam.pdf;Declarado;Acceso remoto de servicio;—;
+O-003;;;No encontrado;Instalaciones del modelo en Colombia y Latinoamérica;instalaciones;ECRI no reporta este dato
+O-004;;;No encontrado;Impacto ambiental del equipo;—;ECRI no reporta este dato
+O-005;;;No encontrado;Activación y desmantelamiento de componentes;—;ECRI no reporta este dato
