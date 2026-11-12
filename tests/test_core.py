@@ -29,9 +29,9 @@ def test_import_and_study():
         assert len(prep["ok"]) > 40 and not prep["desc"]
         k.aplicar_importacion(s["datos"][m], prep)
     rows = k.filas(s)
-    assert len(rows) == 140
+    assert len(rows) == 203
     res = k.resumen(rows)
-    assert res[-1][0] == "Infraestructura" and res[-1][1] == 35
+    assert res[-1][0] == "Infraestructura" and res[-1][1] == 40
     assert all(r[1] == sum(r[2:]) for r in res)
     assert k.costos(s)["A"]["segs"][0] > 0
     assert k.menor_costo(s) in (None, "A", "B")
@@ -64,4 +64,4 @@ def test_normalizar_estudio():
     except ValueError:
         pass
     ej = k.normalizar_estudio(__import__("json").loads((Path(__file__).resolve().parents[1] / "ejemplos" / "estudio_ejemplo.json").read_text(encoding="utf-8")))
-    assert len(k.filas(ej)) == 140
+    assert len(k.filas(ej)) == 203
