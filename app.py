@@ -534,10 +534,10 @@ class Ventana(QMainWindow):
         self.s, self.path = s, p
         self.sync_all()
         desc = K.codigos_desconocidos(s)
-        if desc:
-            QMessageBox.information(self, "Códigos no reconocidos",
-                                    f"El estudio tiene {len(desc)} código(s) que no existen en criterios.json y no se mostrarán "
-                                    f"(se conservan al guardar):\n\n{', '.join(desc)}")
+#        if desc:
+#            QMessageBox.information(self, "Códigos no reconocidos",
+#                                    f"El estudio tiene {len(desc)} código(s) que no existen en criterios.json y no se mostrarán "
+#                                    f"(se conservan al guardar):\n\n{', '.join(desc)}")
 
     def sync_all(self):
         s = self.s
